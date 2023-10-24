@@ -52,17 +52,17 @@ class Session(object, metaclass=SingletonType):
     level - The user auth level
     Set level to 0 by default
     """
-    level = 0
+    level = 2
 
     """
     non supporter library count
     """
-    library_count = 2
+    library_count = 100
 
     """
     non supporter linked installations count
     """
-    link_count = 5
+    link_count = 100
 
     """
     picture_uri - The user avatar
