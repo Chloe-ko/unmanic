@@ -18,12 +18,12 @@ RUN \
         && apt-get update \
         && apt-get install -y \
             libexpat1=2.2.9-1ubuntu0.6 \
-            libglib2.0-0=2.64.6-1~ubuntu20.04.4 \
-            libgomp1=10.3.0-1ubuntu1~20.04 \
+            libglib2.0-0=2.64.6-1~ubuntu20.04.6 \
+            libgomp1=10.5.0-1ubuntu1~20.04 \
             libharfbuzz0b=2.6.4-1ubuntu4.2 \
             libmediainfo0v5=19.09+dfsg-2build1 \
             libv4l-0=1.18.0-2build1 \
-            libx11-6=2:1.6.9-2ubuntu1.2 \
+            libx11-6=2:1.6.9-2ubuntu1.6 \
             libxcb1=1.14-2 \
             libxext6=2:1.3.4-0ubuntu1 \
             libxml2=2.9.10+dfsg-5ubuntu0.20.04.6 \
